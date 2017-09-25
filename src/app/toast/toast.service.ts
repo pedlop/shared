@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-//import toastr from 'toastr';
+import toastr from 'toastr';
 
 @Injectable()
 export class ToastService {
@@ -43,6 +43,7 @@ export class ToastService {
   }
 
   private exibe(tipo: string, mensagem: string, titulo: string) {
-    alert(mensagem);
+    toastr.options = this.options;
+    toastr[tipo](mensagem, titulo);
   }
 }

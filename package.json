@@ -1,6 +1,10 @@
 {
   "name": "portal-shared",
-  "version": "0.1.4",
+  "version": "0.1.8",
+  "author": {
+    "name": "Pedro Victor de A. Lopes",
+    "email": "pedro_victor28@hotmail.com"
+  },
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -23,6 +27,7 @@
     "bootstrap": "^4.0.0-beta",
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
     "rxjs": "^5.4.1",
     "toastr": "^2.1.2",
     "zone.js": "^0.8.14"
