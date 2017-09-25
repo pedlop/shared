@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'inf-home',
+  selector: 'shared-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
