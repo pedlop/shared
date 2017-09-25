@@ -16,3 +16,5 @@ Repository with shared components, services and diretives, for Angular 4 Project
  * Put this directory into **node_modules**
 * The path will be:
 `import { FooterModule } from 'portal-shared';`
+
+**_Note:_** The directoy wont be pushed to your repository, because .gitignore (/node_modules).
